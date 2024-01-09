@@ -2,7 +2,9 @@ run:
 		go run main.go
 
 test:
-		golint ./...
-
+		go test -v ./...
 deps:
 		go mod tidy
+
+std:
+		golint ./...

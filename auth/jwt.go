@@ -21,7 +21,7 @@ func GenerateToken(userID uint64, userEmail string, userRole string) (string,err
 		userEmail,
 		userRole,
 		jwt.StandardClaims{
-			ExpiresAt: time.Now().Add(time.Hour*24).Unix(),
+			ExpiresAt: time.Now().Add(time.Hour*24*10).Unix(),
 			IssuedAt: time.Now().Unix(),
 		},
 	}

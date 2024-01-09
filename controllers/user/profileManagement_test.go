@@ -14,7 +14,7 @@ import (
 	"gorm.io/gorm"
 )
 
-var authToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjYsImVtYWlsIjoiY2F0aGVyaW5lYWJyYWhhbUBlbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImV4cCI6MTcwNDgwNjcwMiwiaWF0IjoxNzA0NzIwMzAyfQ.4MYGwzs9tVxax5HnB34bRzIeHxa_71pOBWFX0DOiKSg"
+var authToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjYsImVtYWlsIjoiY2F0aGVyaW5lYWJyYWhhbUBlbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImV4cCI6MTcwNTY3NDc3OSwiaWF0IjoxNzA0ODEwNzc5fQ.qqmWD07eKJ0dAw3Fv5hm672XNZC8ADH6eRkUZ1XNiAA"
 
 func TestProfile(t *testing.T) {
 	test := []tests{
