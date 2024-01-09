@@ -1,4 +1,4 @@
-# Library Management System
+# Library Management System with CICD Pipeline
 
 This project is a Library Management System designed for local libraries, providing features for users, agents, and administrators. The backend is implemented in Go language using the Gin web framework, PostgreSQL for data storage, Redis for caching, Cron for scheduled tasks, Razorpay for payment processing, SMTP for email notifications, Golint for code linting, and GORM as the ORM.
 
@@ -9,6 +9,12 @@ Access the live demo of the Library Management System at [golib.online](https://
 ## Features
 
 ## Changelog
+
+### Version 3 (2024-01-09)
+
+- Added unit testing in some files of user side.
+- changed some functions to dependency injectable.
+
 
 ### Version 2 (2023-11-26)
 
